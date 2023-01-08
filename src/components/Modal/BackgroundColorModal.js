@@ -7,7 +7,7 @@ const BackgroundColorModal = ({ editor }) => {
 
     const onBackgroundColor = () => {
         editor.canvas.setBackgroundColor(backgroundColor)
-        editor.canvas.renderAll();
+        editor.canvas.setBackgroundImage(null, editor.canvas.renderAll.bind(editor.canvas));
     };
 
     const handleObjectColor = (e) => {
