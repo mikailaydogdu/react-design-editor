@@ -1,4 +1,7 @@
-# react-design-editor 
+# react-design-editor
+
+[Live Demo](https://react-design-editor.netlify.app/)
+
 
 <img src="screenshot/1.png" height="500"/>
 <img src="screenshot/2.png" height="500"/>
