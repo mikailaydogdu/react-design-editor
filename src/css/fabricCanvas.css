@@ -1,0 +1,24 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+.sample-canvas{
+  margin-left: 3%;
+  min-height: 700px;
+  border-style: ridge;
+}
+
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  display: inline-block;
+  cursor: pointer;
+}
+.settings{
+  flex: 1;
+  margin-left: 5%;
+  justify-content: space-between;
+  display: inline-block;
+}
